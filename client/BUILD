@@ -11,7 +11,7 @@ cc_library(
 cc_binary(
     name = "client_uploader",
     srcs = ["main.cpp"],
-    deps = [":generate_objects"],
+    deps = [":generate_objects","//:httplib"],
     copts = ["-std=c++17"],
     visibility = ["//visibility:public"],
 )
