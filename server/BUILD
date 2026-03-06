@@ -1,7 +1,7 @@
 load("@rules_cc//cc:defs.bzl", "cc_binary")
 
 cc_binary(
-    name = "object_store",
+    name = "server_object_store",
     srcs = [
         "main.cpp",
         "engine/object_store.cpp",

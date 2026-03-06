@@ -9,7 +9,7 @@
 #include <string>
 #include <sstream>
 #include <iomanip>
-#include "../generate_objects.h"
+#include "generate_objects.h"
 
 bool generate_test_files(const std::string &data_dir, size_t file_count, size_t file_size)
 {
